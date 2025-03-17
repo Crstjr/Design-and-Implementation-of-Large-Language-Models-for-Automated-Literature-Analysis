@@ -1,0 +1,17 @@
+Required Dependencies (install via `requirements.txt`)
+
+To ensure proper functionality, install the following dependencies before running the system:
+
+- **`python-dotenv`** – Manages API keys and environment variables securely.
+- **`requests`** – Handles HTTP requests for API calls.
+- **`websocket-client`** – Supports real-time communication with the LLM via WebSocket.
+- **`pdfminer.six`** – Extracts text from PDFs.
+- **`pdfplumber`** – Enhances text extraction, especially for structured content like tables.
+- **`markdown2`** – Converts processed text into structured Markdown reports.
+- **`loguru`** – Provides enhanced logging and debugging capabilities.
+- **`langdetect`** – Detects document language (useful for multilingual processing).
+
+To install all dependencies, run:
+```
+pip install -r requirements.txt
+```
