@@ -29,7 +29,7 @@ Ensure you have the following installed:
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r required_dependencies.txt
 
 3.Set up API credentials for SparkApi.py:
   Edit config.py (if applicable) with your API keys.
